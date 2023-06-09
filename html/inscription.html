@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/commande.js"></script>
+    <title>Inscription</title>
+</head>
+
+<body>
+    <header>
+      <img src="../img/logo_salle.png" alt="force" width="200">
+        <ul id="menu">
+          <li><a href="accueil.html">Page d'accueil</a></li>
+          <li><a class="b" href="informations.html">Nos offres</a></li>
+          <li><a class="c" href="inscription.html">Inscrivez-vous</a></li>
+          <li><a class="a" href="contact.html">Contactez-nous</a></li>
+          <li><a class="c" href="Apropos.html">A propos de WoldFit</a></li>
+        </ul>
+    </header>
+    <section>
+        <h1>Inscrivez vous en 1 clic !</h1>
+        <form class="formulaire" id="formulaire" onsubmit="return false">
+          <fieldset id ="propre">
+          <fieldset>
+            <legend>Tarif</legend>
+        <select id="caté">
+            <option value="">--Veuillez choisir la catégorie--</option>
+            <option value="Musculation">Musculation</option>
+            <option value="Fitness">Fitness</option>
+            <option value="Etudiant">Etuduant</option>
+          </select>
+        </fieldset> 
+        <fieldset>
+          <legend>Formules </legend>
+          <select id="Formule">
+            <option value="">--Type de Formule--</option>
+            <option value="Mensuelle">Mensuelle</option>
+            <option value="Trimestrielle">Trimestrielle</option>
+            <option value="Annuelle">Annuelle</option>
+          </select>
+        </fieldset>
+        <fieldset>
+            <legend>Informations Complémentaires </legend>
+            <label > Age</label>
+            <input type="number" min="16" max="100" id="years" value="16">
+             <label > Prénom</label>
+            <input type="text" id="Prenom">
+            <label > Nom</label>
+            <input type="text" id="nom">
+          </fieldset> 
+           
+          <fieldset>
+            <legend>Générer l'offre</legend>
+            <input class="btn" type="submit" value="Oui" onclick="">
+            <input class="btn" type="submit" value="Supprimer" onclick="">
+          </fieldset> 
+        </fieldset>
+        </form>
+        <div id="resultat"></div>
+    </section>
+    <footer> 
+      <img src="../img/c5289c8e58977b95b252ae3e8c60c845.png" alt="reseau" width="200">
+    </footer>
+</body>
+
+</html>
